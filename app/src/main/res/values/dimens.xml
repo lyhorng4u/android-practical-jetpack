@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ==================== Spacing ==================== -->
+    <!-- Margins -->
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_12dp">12dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_24dp">24dp</dimen>
+    <dimen name="margin_32dp">32dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_48dp">48dp</dimen>
+
+    <!-- Screen / Container -->
+    <dimen name="screen_horizontal_margin">16dp</dimen>   <!-- left & right margin for content -->
+    <dimen name="screen_top_margin">160dp</dimen>         <!-- from top to "Login" title (as in your XML) -->
+
+    <!-- ==================== TextInput Fields ==================== -->
+    <dimen name="text_input_margin_top">8dp</dimen>       <!-- between label and TextInputLayout -->
+    <dimen name="text_input_vertical_padding">12dp</dimen> <!-- padding inside EditText -->
+    <dimen name="text_input_corner_radius">12dp</dimen>
+    <dimen name="text_input_height">56dp</dimen>          <!-- recommended minimum height for filled TextInput -->
+
+    <!-- Label (EMAIL ADDRESS, PASSWORD) -->
+    <dimen name="label_text_size">12sp</dimen>
+    <dimen name="label_margin_top">16dp</dimen>           <!-- space before each label -->
+
+    <!-- Hint & Input Text -->
+    <dimen name="input_text_size">15sp</dimen>
+    <dimen name="input_hint_text_size">15sp</dimen>
+
+    <!-- ==================== Typography ==================== -->
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+
+    <!-- Title -->
+    <dimen name="title_text_size">24sp</dimen>
+    <dimen name="title_margin_top">160dp</dimen>
+
+    <!-- ==================== Button ==================== -->
+    <dimen name="button_height">54dp</dimen>              <!-- matches your current design -->
+    <dimen name="button_corner_radius">25dp</dimen>       <!-- matches your current rounded button -->
+    <dimen name="button_margin_top">32dp</dimen>
+    <dimen name="button_text_size">16sp</dimen>
+
+    <!-- ==================== ProgressBar ==================== -->
+    <dimen name="progress_size">32dp</dimen>
+
+    <!-- ==================== General ==================== -->
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="corner_radius_small">8dp</dimen>
+    <dimen name="corner_radius_medium">12dp</dimen>
+    <dimen name="corner_radius_large">16dp</dimen>
+
+</resources>
