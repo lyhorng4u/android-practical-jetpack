@@ -32,14 +32,12 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-
     kotlinOptions {
         jvmTarget = "17"
     }
 
     buildFeatures {
         viewBinding = true
-        // Remove dataBinding if not using it
     }
 }
 
@@ -81,11 +79,17 @@ dependencies {
 
     // SwipeRefresh
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
-    //implementation(libs.androidx.camera.view)
-   // implementation("com.google.mlkit:barcode-scanning:17.3.0")
-//    implementation("androidx.camera:camera-camera2:1.3.4")
-//    implementation(libs.androidx.camera.lifecycle)
-   // implementation("com.google.guava:guava:33.2.1-android")
+
+    // CameraX
+    implementation ("androidx.camera:camera-lifecycle:1.3.0")
+    implementation ("androidx.camera:camera-lifecycle:1.3.0")
+    implementation ("androidx.camera:camera-view:1.3.0")
+
+    // ML Kit Barcode Scanning
+    implementation ("com.google.mlkit:barcode-scanning:17.2.0")
+
+    implementation ("androidx.activity:activity-ktx:1.8.0")
+
     // Testing
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

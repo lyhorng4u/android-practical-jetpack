@@ -38,5 +38,5 @@
     </style>
 
     <style name="Theme.SampleApp" parent="Base.Theme.SampleApp" />
-
+    <style name="Widget.Material3.Button.OutlinedButton" parent="Widget.Material3.Button.OutlinedButton" />
 </resources>

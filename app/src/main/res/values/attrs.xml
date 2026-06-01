@@ -1,9 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <declare-styleable name="AppButton">
-
         <attr name="buttonText" format="string" />
-
         <attr name="buttonVariant">
             <enum name="primary" value="0" />
             <enum name="secondary" value="1" />
@@ -11,71 +9,18 @@
             <enum name="danger" value="3" />
             <enum name="ghost" value="4" />
         </attr>
-
         <attr name="buttonSize">
             <enum name="small" value="0" />
             <enum name="medium" value="1" />
             <enum name="large" value="2" />
         </attr>
-
         <attr name="buttonRounded">
             <enum name="small" value="0" />
             <enum name="medium" value="1" />
             <enum name="full" value="2" />
         </attr>
-
         <attr name="leftIcon" format="reference" />
         <attr name="rightIcon" format="reference" />
-
         <attr name="isLoading" format="boolean" />
-
     </declare-styleable>
-    <declare-styleable name="AppTextInput">
-        <attr name="inputLabel" format="string" />
-        <attr name="inputHint" format="string" />
-        <attr name="inputStartIcon" format="reference" />
-
-        <attr name="inputMode">
-            <enum name="text" value="0" />
-            <enum name="email" value="1" />
-            <enum name="password" value="2" />
-            <enum name="number" value="3" />
-            <enum name="phone" value="4" />
-        </attr>
-
-        <attr name="inputRequired" format="boolean" />
-        <attr name="inputEnabled" format="boolean" />
-    </declare-styleable>
-
-    <!-- AppCard attrs -->
-    <declare-styleable name="AppCard">
-        <attr name="cardType">
-            <enum name="filled" value="0" />
-            <enum name="outlined" value="1" />
-            <enum name="elevated" value="2" />
-        </attr>
-        <attr name="cardElevation">
-            <enum name="none" value="0" />
-            <enum name="low" value="1" />
-            <enum name="medium" value="2" />
-            <enum name="high" value="3" />
-        </attr>
-        <attr name="cardCornerRadius" format="dimension" />
-    </declare-styleable>
-
-    <!-- AppBadge attrs -->
-    <declare-styleable name="AppBadge">
-        <attr name="badgeColor">
-            <enum name="primary" value="0" />
-            <enum name="success" value="1" />
-            <enum name="warning" value="2" />
-            <enum name="error" value="3" />
-            <enum name="neutral" value="4" />
-        </attr>
-        <attr name="badgeSize">
-            <enum name="small" value="0" />
-            <enum name="medium" value="1" />
-        </attr>
-    </declare-styleable>
-
 </resources>
