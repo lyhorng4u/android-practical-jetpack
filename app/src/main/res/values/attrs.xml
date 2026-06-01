@@ -46,4 +46,36 @@
         <attr name="inputRequired" format="boolean" />
         <attr name="inputEnabled" format="boolean" />
     </declare-styleable>
+
+    <!-- AppCard attrs -->
+    <declare-styleable name="AppCard">
+        <attr name="cardType">
+            <enum name="filled" value="0" />
+            <enum name="outlined" value="1" />
+            <enum name="elevated" value="2" />
+        </attr>
+        <attr name="cardElevation">
+            <enum name="none" value="0" />
+            <enum name="low" value="1" />
+            <enum name="medium" value="2" />
+            <enum name="high" value="3" />
+        </attr>
+        <attr name="cardCornerRadius" format="dimension" />
+    </declare-styleable>
+
+    <!-- AppBadge attrs -->
+    <declare-styleable name="AppBadge">
+        <attr name="badgeColor">
+            <enum name="primary" value="0" />
+            <enum name="success" value="1" />
+            <enum name="warning" value="2" />
+            <enum name="error" value="3" />
+            <enum name="neutral" value="4" />
+        </attr>
+        <attr name="badgeSize">
+            <enum name="small" value="0" />
+            <enum name="medium" value="1" />
+        </attr>
+    </declare-styleable>
+
 </resources>
